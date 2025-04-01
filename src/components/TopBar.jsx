@@ -3,7 +3,7 @@ import { Select } from "antd";
 import { SunOutlined, MoonOutlined } from "@ant-design/icons";
 import { useLanguage } from "../context/LanguageContext";
 import { useTheme } from "../context/ThemeContext";
-import "./topBar.css";
+import "./TopBar.css";
 
 const { Option } = Select;
 
