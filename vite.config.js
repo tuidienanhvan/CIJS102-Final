@@ -4,7 +4,6 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react(),],
-  base: "/CIJS102-Final/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // Đặt alias cho thư mục src
